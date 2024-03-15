@@ -19,8 +19,9 @@ void exercise_3(int a, int b) {
 if (b==0){
   cout << "Impossible" << endl;
 }
-else ;
+else {
   cout << a/b << endl;
+}
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
