@@ -22,7 +22,7 @@ void exercise_3(int a, int b) {
     cout << "Impossible" << endl;}
   else (b>a) {
     cout << "0" << endl;
-
+  }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
