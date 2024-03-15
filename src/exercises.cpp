@@ -7,7 +7,7 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   cout << "a" << endl;
-  cout << hello word << endl
+  
 }
 
 void exercise_2(double A, double B, double C) {
@@ -16,6 +16,16 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+  if (a>b) {
+    cout << a/b << endl;
+  else if (a=0) {
+    cout << "Impossible" << endl;
+  else (b>a) {
+    cout << "0" << endl;
+  }
+  }  
+
+  }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
