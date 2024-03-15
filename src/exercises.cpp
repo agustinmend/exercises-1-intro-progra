@@ -16,8 +16,10 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+  int result;
+  result = a/b;
   if (a>b) {
-    cout << a/b << endl;}
+    cout << result << endl;}
   else if (a=0) {
     cout << "Impossible" << endl;}
   else ;
