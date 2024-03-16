@@ -161,7 +161,7 @@ int exercise_10(int a, int b) {
   int sum = a + b ;
   string suma = to_string(sum);
   if (a>=0 && b>=0){
-    int result = suma.length() * sum ;
+    int result = suma.size() * sum ;
     cout << result << endl;
   }
   else {
