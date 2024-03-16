@@ -86,7 +86,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  /*int S =a + b;
+  int S =a + b;
   string S1 = to_string(S);
   int digitos = S1.size();
   int result = S * digitos ;
@@ -95,7 +95,7 @@ int exercise_10(int a, int b) {
   }
   else {
     cout << "" << endl;
-  }*/
+  }
 }
 
 string exercise_11(int number) {
