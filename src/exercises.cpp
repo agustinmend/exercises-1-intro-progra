@@ -62,7 +62,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout << result << endl;
   }
   else if (n > b && n < a) {
-    result = n - n * (x/100);
+    result = n;
     cout << result << endl;
   }
   else if (n > a && n > b){
