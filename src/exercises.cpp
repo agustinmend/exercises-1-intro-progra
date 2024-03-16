@@ -37,6 +37,19 @@ else {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+  double result; 
+  if (n > a) {
+    result = c - x/100 ;
+    cout << result;
+  }
+  else if (n > b) {
+    result = c - y/100;
+    cout << result;
+  }
+  else {
+    result = c - y/100;
+    cout << result;
+  }
 }
 
 void exercise_5(char character) {
