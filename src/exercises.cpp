@@ -164,8 +164,6 @@ int exercise_10(int a, int b) {
     int result = suma.size() * sum ;
     cout << result << endl;
   }
-  else {
-    cout << "0" << endl;
   }
   return 0;
 }
