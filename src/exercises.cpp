@@ -162,11 +162,12 @@ int exercise_10(int a, int b) {
   string suma = to_string(sum);
   if (a>0 && b>0){
     int result = suma.length() * sum ;
-    return result;
+    cout << result << endl;
   }
   else {
-    return "0";
+    cout << "0" << endl;
   }
+  return 0;
 }
 
 string exercise_11(int number) {
