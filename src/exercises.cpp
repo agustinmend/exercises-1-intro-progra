@@ -37,7 +37,7 @@ else {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-  double result; 
+  float result; 
   if (n > a) {
     result = n - n * (x/100) ;
     cout << result << endl;
