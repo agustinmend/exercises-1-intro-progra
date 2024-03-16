@@ -47,7 +47,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout << result << endl;
   }
   else {
-    result = n - n (y/100);
+    result = n - n * (y/100);
     cout << result << endl;
   }
 }
