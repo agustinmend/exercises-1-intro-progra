@@ -77,8 +77,17 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter4 = s4[0];
   char caracter5 = s5[0];
   cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 << endl;
-
+  cout << mensage (caracter1 , caracter5);
 }
+string mensage (valor1 , valor2){
+  if (valor1 == valor5) {
+    cout << " Hemos encontrado algo!";
+  }
+  else {
+    cout << " Aun sin suerte";
+  }
+}
+
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
