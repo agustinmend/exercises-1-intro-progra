@@ -12,6 +12,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+
 }
 
 void exercise_3(int a, int b) {
@@ -80,7 +81,7 @@ int exercise_10(int a, int b) {
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
   if (number == 11235813) {
-    cout << "Se encontro Fibonacci" << endl;
+    cout << "Se encontró Fibonacci" << endl;
   }
   else {
     cout << "Esto no es de Fibonacci" << endl;
