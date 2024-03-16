@@ -102,9 +102,10 @@ string exercise_11(int number) {
   // TODO: YOUR CODE HERE
   cin >> number;
   if (number == 11235813) {
-    return "Se encontró Fibonacci";
+    return "Se encontro Fibonacci";
   }
-  else {
+  else 
+  {
     return "Esto no es de Fibonacci";
   }
 }
