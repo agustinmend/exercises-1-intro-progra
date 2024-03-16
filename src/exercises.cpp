@@ -79,8 +79,8 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 << endl;
   cout << mensage (caracter1 , caracter5);
 }
-string mensage (valor1 , valor2){
-  if (valor1 == valor5) {
+string mensage (char valor1 , char valor2){
+  if (valor1 == valor2) {
     cout << " Hemos encontrado algo!";
   }
   else {
