@@ -168,14 +168,14 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
-  if (age >= 18 && years_of_experience < 3){
+  if (age >= 18 && years_of_experience < 3 && years_of_experience >= 0){
     return "coordinador de proyecto";
   }
   else if (age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
     return "director de proyecto";
   }
   else if (age >= 18 && years_of_experience >= 5){
-    return"director senior";
+    return "director senior";
   }
   else {
     cout << "" << endl;
