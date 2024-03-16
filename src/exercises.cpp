@@ -58,11 +58,11 @@ void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
   float result; 
   if (n > a) {
-    result = n - n * (x/100) ;
+    result = a - n * (x/100) ;
     cout << result << endl;
   }
   else if (n > b) {
-    result = n - n * (y/100);
+    result = b - n * (y/100);
     cout << result << endl;
   }
 }
