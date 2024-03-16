@@ -178,7 +178,7 @@ string exercise_13(int age, int years_of_experience) {
     return "director senior";
   }
   else {
-    return "";
+    return "not eligible";
   }
 }
 
