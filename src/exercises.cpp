@@ -106,7 +106,7 @@ void exercise_6(int number) {
     cout << "Miercoles";
   }
   else if (number == 4) {
-    cout << "Thursday" << cout;
+    cout << "Thursday" << endl;
   }
   else if (number == 5) {
     cout << "Viernes";
