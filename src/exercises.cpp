@@ -23,6 +23,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+  double result;
   double resultraiz = sqrt( B * B -4 * A * C);
   if (resultraiz > 0 && A != 0){
     double result_1 = (- B + resultraiz )/(2 * A);
@@ -30,7 +31,7 @@ void exercise_2(double A, double B, double C) {
     cout << result_1 << " " << result_2;
   }
   else if (resultraiz == 0 && A !=0 ){
-    double result = - B /( 2 * A);
+    result = - B /( 2 * A);
     cout << result;
   }
   else if ( A == 0 ){
