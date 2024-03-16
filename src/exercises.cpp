@@ -101,10 +101,10 @@ int exercise_10(int a, int b) {
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
   if (number == 11235813) {
-    cout << "Se encontró Fibonacci" << endl;
+    return "Se encontró Fibonacci";
   }
   else {
-    cout << "Esto no es de Fibonacci" << endl;
+    return "Esto no es de Fibonacci";
   }
 }
 
