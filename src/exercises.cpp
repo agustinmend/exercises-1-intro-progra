@@ -139,7 +139,7 @@ void exercise_8(long int seconds) {
   int hour = seconds / 3600;
   int minutes = seconds / 60;
   if (seconds >= 0){
-    cout << hour << ":" << minutes << ":" << seconds << endl;
+    cout << setw(2) << std ::setfill('0') << hour << ":" << setw(2) << std ::setfill('0') minutes << ":" << seconds << setw(2) << std ::setfill('0') <<endl;
   }
 }
 
