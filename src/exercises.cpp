@@ -91,11 +91,13 @@ int exercise_10(int a, int b) {
   int S =a + b;
   string S1 = to_string(S);
   int digitos = S1.size();
-  int result = S * S1 ;
+  int result = S * digitos ;
   if ( a >= 0 && b >= 0) {
     cout << result << endl;
   }
-
+  else {
+    cout << "" << endl;
+  }
 }
 
 string exercise_11(int number) {
