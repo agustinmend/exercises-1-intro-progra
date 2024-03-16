@@ -68,13 +68,6 @@ void exercise_8(long int seconds) {
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-  char caracter1 = s1[0];
-  char caracter2 = s2[0];
-  char caracter3 = s3[0];
-  char caracter4 = s4[0];
-  char caracter5 = s5[0];
-  cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 << endl;
-  cout << mensage (caracter1 , caracter5);
 }
 
 
