@@ -97,7 +97,7 @@ void exercise_6(int number) {
     cout << "Invalid input";
   }
   else if (number == 1) {
-    cout << "Lunes";
+    cout << "Monday" << endl;
   }
   else if (number == 2) {
     cout << "Martes";
@@ -106,7 +106,7 @@ void exercise_6(int number) {
     cout << "Miercoles";
   }
   else if (number == 4) {
-    cout << "Jueves";
+    cout << "Thursday" << cout;
   }
   else if (number == 5) {
     cout << "Viernes";
@@ -116,6 +116,9 @@ void exercise_6(int number) {
   }
   else if (number == 7) {
     cout << "Domingo";
+  }
+  else {
+    cout << "Invalid input" << endl;
   }
 }
 
