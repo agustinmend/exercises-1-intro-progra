@@ -76,7 +76,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter3 = s3[0];
   char caracter4 = s4[0];
   char caracter5 = s5[0];
-  cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 << endl;
+  cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5;
   if (caracter1 == caracter5) {
     cout << "Hemos encontrado algo!" << endl;
   }
