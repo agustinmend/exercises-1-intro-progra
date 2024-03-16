@@ -49,10 +49,6 @@ void exercise_5(char character) {
   else if (ASCII >= 97 && ASCII <= 122){
     cout << "upper-case alphabet" << endl;
   }
-  else if (ASCII >= 32 && ASCII <= 64) {
-
-    cout << "not an alphabet" << endl;
-  }
   else {
     cout << "not an alphabet" << endl;
   }
