@@ -50,7 +50,7 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   if (r >= 0) {
-    double result;
+    long double result;
     result = 4 * 3.1416 * r * r;
     cout << result << endl;
   }
