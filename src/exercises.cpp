@@ -152,10 +152,10 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter5 = s5[0];
   cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 ;
   if ( caracter1 == caracter2) {
-    return"Hemos encontrado algo!";
+    cout << "Hemos encontrado algo!" << endl;
   }
   else {
-    return "Aun sin suerte";
+    cout << "Aun sin suerte" << endl;
   }
 }
 
