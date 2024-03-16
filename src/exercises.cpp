@@ -138,7 +138,7 @@ int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   int sum = a + b;
   string suma = to_string(sum);
-  int digitos = suma size();
+  int digitos = size(suma);
   if (a>0 && b>0){
     int result = sum * digitos;
     cout << result << endl;
