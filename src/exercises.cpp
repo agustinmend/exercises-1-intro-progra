@@ -93,7 +93,7 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
-  swicht (number){
+  string swicht (number){
     case 0;
     cout << "Invalid input" << endl;
     break;
