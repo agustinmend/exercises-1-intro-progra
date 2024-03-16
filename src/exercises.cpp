@@ -15,6 +15,9 @@ void exercise_1(string s1, string s2, string s3) {
   else if (s3 < s1 && s3 < s1) {
     cout << s3 ;
   }
+  else {
+    cout << s1;
+  }
 
 }
 
