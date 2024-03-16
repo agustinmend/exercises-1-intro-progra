@@ -51,7 +51,7 @@ void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   if (r >= 0) {
     double result;
-    result = 4 * 3.141592653 * r * r;
+    result = 4 * 3.1415926 * r * r;
     cout << result << endl;
   }
   else {
