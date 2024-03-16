@@ -93,31 +93,29 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
-  string switch(number) {
-    case 0;
-    cout << "Invalid input" << endl;
-    break;
-    case 1;
-    cout << "Lunes" << endl;
-    break;
-    case 2;
-    cout << "Martes" << endl;
-    break;
-    case 3;
-    cout << "Miercoles" << endl;
-    break;
-    case 4;
-    cout << "Jueves" << endl;
-    break;
-    case 5;
-    cout << "Viernes" << endl;
-    break;
-    case 6;
-    cout << "Sabado" << endl;
-    break;
-    case 7;
-    cout << "Domingo" << endl;
-    break;
+  if (number == 0) {
+    cout << "Invalid input";
+  }
+  else if (number == 1) {
+    cout << "Lunes";
+  }
+  else if (number == 2) {
+    cout << "Martes";
+  }
+  else if (number == 3) {
+    cout << "Miercoles";
+  }
+  else if (number == 4) {
+    cout << "Jueves";
+  }
+  else if (number == 5) {
+    cout << "Viernes";
+  }
+  else if (number == 6) {
+    cout << "Sabado" ;
+  }
+  else if (number == 7) {
+    cout << "Domingo";
   }
 }
 
