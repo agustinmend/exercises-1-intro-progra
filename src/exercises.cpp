@@ -40,15 +40,15 @@ void exercise_4(double n, double a, double b, double x, double y) {
   double result; 
   if (n > a) {
     result = n - x/100 ;
-    cout << result;
+    cout << result << cout;
   }
   else if (n > b) {
     result = n - y/100;
-    cout << result;
+    cout << result << cout;
   }
   else {
     result = n - y/100;
-    cout << result;
+    cout << result << cout;
   }
 }
 
