@@ -70,7 +70,7 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE  HERE
+  // TODO: YOUR CODE HERE
   char caracter1 = s1[0];
   char caracter2 = s2[0];
   char caracter3 = s3[0];
