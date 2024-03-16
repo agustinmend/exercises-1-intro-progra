@@ -34,7 +34,7 @@ void exercise_2(double A, double B, double C) {
     result = - B /( 2 * A);
     cout << result << endl;
   }
-  else if ( A == 0 ){
+  else if ( A == 0 && B!=0){
     result = - C / B;
     cout << result << endl; 
   }
