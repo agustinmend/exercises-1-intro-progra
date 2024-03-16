@@ -111,7 +111,6 @@ string exercise_11(int number) {
   else {
     cout << "Esto no es de Fibonacci" << endl;
   }
-  return "";
 }
 
 void exercise_12(string color1, int numb1,
@@ -135,12 +134,10 @@ string exercise_13(int age, int years_of_experience) {
   else {
     cout << "" << endl;
   }
-  return "";
 }
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
-  return "";
 }
 
 void exercise_15(int a, int b, int c) {
