@@ -1,7 +1,7 @@
 
 #include <cmath>
 #include <iostream>
-
+int main () {
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
@@ -143,4 +143,6 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+}
+return 0;
 }
