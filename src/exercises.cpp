@@ -28,15 +28,15 @@ void exercise_2(double A, double B, double C) {
   if (resultraiz > 0 && A != 0){
     double result_1 = (- B + resultraiz )/(2 * A);
     double result_2 = (- B - resultraiz )/(2 * A);
-    cout << result_1 << " " << result_2;
+    cout << result_1 << " " << result_2 << endl;
   }
   else if (resultraiz == 0 && A !=0 ){
     result = - B /( 2 * A);
-    cout << result;
+    cout << result << endl;
   }
   else if ( A == 0 ){
     result = - C / B;
-    cout << result; 
+    cout << result << endl; 
   }
   else {
     cout << "";
