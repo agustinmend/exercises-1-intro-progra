@@ -159,12 +159,13 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   int sum = a + b ;
-  int result = sum *2;
-  if (a>=0 && b>=0) {
-    cout << result << endl;
+  string suma = to_string(sum);
+  if (a>0 && b>0){
+    int result = suma.length() * sum ;
+    return result;
   }
   else {
-    cout << "0" << endl;
+    return "0";
   }
 }
 
