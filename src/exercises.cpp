@@ -28,7 +28,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  /*int ASCII;
+  int ASCII;
   ASCII = (int) character;
   if (ASCII >= 65 && ASCII <= 90){
     cout << "lower-case alphabet" << endl;
@@ -38,7 +38,7 @@ void exercise_5(char character) {
   }
   else {
     cout << "not an alphabet" << endl;
-  }*/
+  }
 }
 
 void exercise_6(int number) {
