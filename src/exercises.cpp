@@ -69,7 +69,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout << n << endl;
   }
   else {
-    cout << "" << endl;
+    cout << n << endl;
   }
 }
 
