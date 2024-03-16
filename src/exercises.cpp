@@ -163,6 +163,9 @@ int exercise_10(int a, int b) {
   if (a>0 && b>0){
     cout << suma.length() * sum << endl;
   }
+  else {
+    cout << "0" << endl;
+  }
 }
 
 string exercise_11(int number) {
