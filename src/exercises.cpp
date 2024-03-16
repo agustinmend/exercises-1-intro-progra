@@ -137,8 +137,8 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   int S =a + b;
-  string S1 = to_string(S);
-  int digitos = S1.size();
+  string numeros_suma = to_string(S);
+  int digitos = numeros_suma.size();
   int result = S * digitos ;
   if ( a >= 0 && b >= 0) {
     cout << result << endl;
