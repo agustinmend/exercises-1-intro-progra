@@ -6,13 +6,10 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-  cout << "a" << endl;
-  
 }
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-
 }
 
 void exercise_3(int a, int b) {
@@ -71,7 +68,7 @@ void exercise_8(long int seconds) {
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-  char caracter1 = s1[0];
+  /*char caracter1 = s1[0];
   char caracter2 = s2[0];
   char caracter3 = s3[0];
   char caracter4 = s4[0];
@@ -85,7 +82,7 @@ string mensage (char valor1 , char valor2){
   }
   else {
     cout << " Aun sin suerte";
-  }
+  }*/
 }
 
 
