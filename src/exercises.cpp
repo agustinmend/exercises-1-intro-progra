@@ -136,40 +136,27 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
-  long int hour;
-  long int minutes;
-  long int result_seconds;
-  if (seconds < 0);{
+  int hour;
+int min;
+if(sec < 0){
     cout << "Error: Input seconds cannot be negative." << endl;
-  }
-    else if {
-    hour = seconds / 3600;
-    minutes = seconds % 3600;
-    result_seconds = minutes % 60;
-    else if (hour < 10 && minutes < 10 && result_seconds < 10) {
-    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_second << endl;
-    }
-    else if (hour < 10 && minutes >= 10 && result_seconds >= 10) {
-    cout << "0" << hour << ":" <<  minutes << ":" << result_seconds << endl;
-    }
-    else if (hour < 10 && minutes >= 10 && result_seconds < 10) {
-    cout << "0" << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
-    }
-    else if (hour < 10 && minutes < 10 && result_seconds >=10) {
-    cout << "0" << hour << ":" << "0" << minutes << ":" << result_seconds << endl;
-    }
-    else if (hour >= 10 && minutes < 10 && result_seconds < 10) {
-    cout << "0" << hour << ":" << "0" << minutes << ":" << result_seconds << endl;
-    }
-    else if (hour >= 10 && minutes >= 10 && result_seconds < 10) {
-    cout << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
-    }
-    else if (hour < 10 && minutes >= 10 && result_seconds >= 10) {
-    cout << "0" << hour << ":" << minutes << ":" << result_seconds << endl;
-    }
-    else {
-    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
-    }
+}
+else {
+hour = seconds/3600;
+sec = seconds%3600;
+min = seconds/60;
+sec = seconds%60;
+  if(hour < 10 && min < 10 && sec < 10){
+    cout << "0" << hour << ":" << "0" << min << ":" << "0" << sec << endl;
+}
+else if(hour < 10 && min >= 10 && sec >= 10){
+    cout << "0" << hour << ":" << min << ":" << sec << endl; 
+}
+else if(hour < 10 && min >= 10 && sec < 10){
+    cout << "0" << hour << ":" << min << ":" << "0" << sec << endl;
+}
+else if(hour < 10 && min < 10 && sec >= 10){
+    cout << "0" << hour << ":" << "0" << min << ":" << sec << endl;
 }
 }
 
