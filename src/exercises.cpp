@@ -136,8 +136,40 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+  int hour = seconds / 3600;
+  int minutes = seconds % 3600;
+  int result_second = minutes % 60;
+  if (seconds < 0);{
+    cout << "Error: Input seconds cannot be negative." << endl;
+  }
+  else if (seconds >= 0 && hour < 10 && minutes < 10 && result_seconds < 10) {
+    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour >= 10 && minutes < 10 && result_seconds < 10) {
+    cout << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour >= 10 && minutes >= 10 && result_seconds < 10) {
+    cout << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour >= 10 && minutes >= 10 && result_seconds >=10) {
+    cout << hour << ":" << minutes << ":" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour < 10 && minutes >= 10 && result_seconds < 10) {
+    cout << "0" << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour < 10 && minutes >= 10 && result_seconds < 10) {
+    cout << "0" << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour >= 10 && minutes >= 10 && result_seconds < 10) {
+    cout << hour << ":" << minutes << ":" << "0" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour < 10 && minutes >= 10 && result_seconds >= 10) {
+    cout << "0" << hour << ":" << minutes << ":" << result_seconds << endl;
+  }
+  else if (seconds >= 0 && hour < 10 && minutes < 10 && result_seconds < 10) {
+    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
 }
-
+}
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
   char caracter1 = s1[0];
