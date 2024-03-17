@@ -167,7 +167,7 @@ void exercise_8(long int seconds) {
     else if (seconds >= 0 && hour < 10 && minutes >= 10 && result_seconds >= 10) {
     cout << "0" << hour << ":" << minutes << ":" << result_seconds << endl;
     }
-    else if (seconds >= 0 && hour < 10 && minutes < 10 && result_seconds < 10) {
+    else (seconds >= 0 && hour < 10 && minutes < 10 && result_seconds < 10) {
     cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
     }
 }
