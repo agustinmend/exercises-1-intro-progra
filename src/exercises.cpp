@@ -158,14 +158,14 @@ else if(hour < 10 && min >= 10 && sec < 10){
 else if(hour < 10 && min < 10 && sec >= 10){
     cout << "0" << hour << ":" << "0" << min << ":" << sec << endl;
 }
-else if(h >= 10 && m < 10 && seconds < 10){
-    cout << h << ":" << "0" << m << ":" << "0" << seconds << endl; 
+else if(hour >= 10 && min < 10 && sec < 10){
+    cout << hour << ":" << "0" << min << ":" << "0" << sec << endl; 
 }
-else if(h >= 10 && m >= 10 && seconds < 10){
-    cout << h << ":" << m << ":" << "0" << seconds << endl;
+else if(hour >= 10 && min >= 10 && sec < 10){
+    cout << hour << ":" << min << ":" << "0" << sec << endl;
 }
 else{
-  cout << h << ":" << m << ":" << seconds << endl;
+  cout << hour << ":" << min << ":" << sec << endl;
 } 
 }
 }
