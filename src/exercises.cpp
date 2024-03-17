@@ -138,13 +138,13 @@ void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
   long int hour = seconds / 3600;
   long int minutes = seconds % 3600;
-  long int result_second = minutes % 60;
+  long int result_seconds = minutes % 60;
   if (seconds < 0);{
     cout << "Error: Input seconds cannot be negative." << endl;
   }
   else {
     if (hour < 10 && minutes < 10 && result_seconds < 10) {
-    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_seconds << endl;
+    cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << result_second << endl;
     }
     else if (hour < 10 && minutes >= 10 && result_seconds >= 10) {
     cout << "0" << hour << ":" <<  minutes << ":" << result_seconds << endl;
