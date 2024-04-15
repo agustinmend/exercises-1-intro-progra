@@ -215,17 +215,40 @@ void exercise_12(string color1, int numb1,
                  string color3, int numb3,
                  string color4, int numb4) {
   // TODO: YOUR CODE HERE
-  if (color4 == color1){
+  if (color1 == color4 && color4 == color2 && color4 == color3) {
+    if (numb4 == "-1") {
+      cout << "1" << endl;
+      cout << "2" << endl;
+      cout << "3" << endl;
+    }
+    else {
+      cout << "1" << endl;
+      cout << "2" << endl;
+      cout << "3" << endl;
+    }
+  }
+  else if (color4 == color1 && color4 == color2 && color4 != color3) {
     cout << "1" << endl;
-  }
-  else if (color4 == color2){
     cout << "2" << endl;
-  }
-  else if (color4 == color3){
+  } 
+  else if (color4 == color2 && color4 == color3 && color4 != color1) {
+    cout << "2" << endl;
     cout << "3" << endl;
   }
-}
-
+  else if (color4 == color1 && color4 == color3 && color4 != color2) {
+    cout << "1" << endl;
+    cout << "3" << endl;
+  }
+  else if (color4 == color1 && color4 != color2 && color4 != color3) {
+    cout << "1" << endl;
+  }
+  else if (color4 == color2 && color4 != color1 && color4 != color3) {
+    cout << "2" << endl;
+  }
+  else if (color4 == color3 && color4 != color1 && color4 != color2) {
+    cout << "3" << endl;
+  }
+  }
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
   if (age >= 18 && years_of_experience < 3 && years_of_experience >= 0){
