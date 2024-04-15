@@ -228,7 +228,7 @@ void exercise_12(string color1, int numb1,
     cout << "2" << endl;
     cout << "3" << endl;
   }
-  else if (color4 == color1 && color4 == color3 && color4 != color2) {
+  else if (color4 == color1 && color4 == color3 && color4 != color2 && numb4 == numb1) {
     cout << "1" << endl;
     cout << "3" << endl;
   }
@@ -238,7 +238,7 @@ void exercise_12(string color1, int numb1,
   else if (color4 == color2 && color4 != color1 && color4 != color3) {
     cout << "2" << endl;
   }
-  else if (color4 == color3 && color4 != color1 && color4 != color2) {
+  else if (color4 == color3 && color4 != color2 && numb4 == numb3) {
     cout << "3" << endl;
   }
   }
