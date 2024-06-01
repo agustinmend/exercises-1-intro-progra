@@ -22,7 +22,7 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  // TODO: YOUR CODE HERE  
   double result;
   double resultraiz = sqrt( B * B -4 * A * C);
   if (resultraiz > 0 && A != 0){
@@ -283,4 +283,20 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  if(debut > 24 || debut < 0 || fin > 24 || fin < 0) {
+    cout << "Las horas deben estar entre 0 y 24!" << endl;
+  }
+  else if( debut == fin) {
+    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+  }
+  else if(fin < debut) {
+    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+  }
+  else {
+    int cantidad = 0;
+    int horas;
+    horas = fin - debut;
+    if (debut < 7) {  
+    }
+  }
 }
